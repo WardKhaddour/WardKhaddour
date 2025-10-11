@@ -15,7 +15,6 @@ export function Header() {
   const t = useTranslations('header')
   const navItems = [
     { name: t('about'), href: '/#about-me' },
-    { name: t('projects'), href: '/#projects' },
     { name: t('skills'), href: '/#skills' },
     { name: t('work'), href: '/#experience' },
     { name: t('contact'), href: '/#contact' },
