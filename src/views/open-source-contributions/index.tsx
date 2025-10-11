@@ -17,7 +17,7 @@ export function OpenSource({ className = '' }: Props) {
     name: string
     description: string
     url: string
-    stars: string
+    stars?: string
   }[]
 
   return (
@@ -37,7 +37,7 @@ export function OpenSource({ className = '' }: Props) {
                 'bg-surface dark:bg-dark-surface',
               )}
             >
-              <div className='mb-4 flex items-center gap-4'>
+              <div className='mb-4 flex items-center gap-2'>
                 <div className='rounded-full p-3'>
                   <FaGithub className='text-icon dark:text-dark-icon text-2xl' />
                 </div>
@@ -45,12 +45,14 @@ export function OpenSource({ className = '' }: Props) {
                   <h3 className='text-text dark:text-dark-text text-lg font-bold'>
                     {collab.name}
                   </h3>
-                  <div className='flex items-center gap-1 text-yellow-500'>
-                    <FaStar />
-                    <span className='text-text-secondary dark:text-dark-text-muted text-sm'>
-                      {collab.stars}
-                    </span>
-                  </div>
+                  {collab.stars ? (
+                    <div className='flex items-center gap-1 text-yellow-500'>
+                      <FaStar />
+                      <span className='text-text-secondary dark:text-dark-text-muted text-sm'>
+                        {collab.stars}
+                      </span>
+                    </div>
+                  ) : null}
                 </div>
               </div>
               <p className='text-text-secondary dark:text-dark-text-muted mb-4'>

@@ -44,10 +44,10 @@ export function Hero({ className = '' }: Props) {
               </p>
               <div className='xs:flex-row flex flex-col gap-4 pt-4'>
                 <a
-                  href='#projects'
+                  href='#about-me'
                   className='bg-primary hover:bg-primary/90 dark:bg-dark-primary dark:hover:bg-dark-primary/90 transform rounded-lg px-8 py-4 text-center font-medium text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'
                 >
-                  {tHero('viewWork')}
+                  {tHero('aboutMe')}
                 </a>
                 <DownloadResume />
               </div>

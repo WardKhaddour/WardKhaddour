@@ -11,7 +11,7 @@ export const about = {
   stats: [
     { labelKey: 'stats.years', value: 2 },
     { labelKey: 'stats.tech', value: 8 },
-    { labelKey: 'stats.languages', value: 2 },
+    { labelKey: 'stats.languages', value: 3 },
     { labelKey: 'stats.degree', value: 1 },
   ],
 } as const

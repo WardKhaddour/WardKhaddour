@@ -31,7 +31,7 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "viewWork": "View My Work",
+    "aboutMe": "About Me",
     "altImage": "Developer illustration",
     "downloadResume": "Download Resume",
     "downloading": "Downloading..."
@@ -46,57 +46,6 @@
       "tech": "Tech Stack",
       "languages": "Languages",
       "degree": "Degree"
-    }
-  },
-  "projects": {
-    "header": "Featured Projects",
-    "description": "A showcase of my recent work and development projects",
-    "keyFeatures": "Key Features",
-    "items": {
-      "flatlane": {
-        "title": "Flatlane",
-        "shortDescription": "Comprehensive ride-hailing platform with real-time tracking",
-        "details": [
-          "Built a customer-facing web app with real-time trip tracking, ride booking, secure in-app chat, and a driver rating system.",
-          "Integrated Stripe and PayPal for secure payments, ensuring smooth and safe transactions.",
-          "Applied design patterns (Adapter, Observer) for modular, maintainable architecture",
-          "Developed an admin dashboard to monitor trips, manage drivers/customers, and track engagement metrics."
-        ],
-        "tags": ["Taxis", "PayPal", "Stripe"]
-      },
-      "syrianlancer": {
-        "title": "Syrianlancer",
-        "shortDescription": "Freelancing platform for service seekers and freelancers",
-        "details": [
-          "Created a platform for service seekers and freelancers with detailed service listings, search/filter options, and secure transactions.",
-          "Built a rating system to enhance trust and credibility.",
-          "Integrated secure payment gateway and delivery system to protect both parties.",
-          "Added real-time in-app chat for seamless communication.",
-          "Developed an admin dashboard for service/user management, dispute resolution, and analytics tracking."
-        ],
-        "tags": ["React", "Freelancing"]
-      },
-      "edulive": {
-        "title": "Edulive",
-        "shortDescription": "Real-time online classroom and course platform",
-        "details": [
-          "Designed a platform with live classrooms (via WebRTC), recorded streaming (HLS/DASH), and adaptive playback for varied networks/devices.",
-          "Implemented Nest.js, GraphQL APIs, Socket.io, PostgreSQL, and React for a full-stack solution.",
-          "Built real-time signaling for video sessions and efficient querying for course data.",
-          "Earned 96% as a graduation project"
-        ],
-        "tags": ["React", "Nest.js", "WebRTC", "GraphQL", "PostgreSQL"]
-      },
-      "observerKit": {
-        "title": "React Intersection Observer Kit",
-        "shortDescription": "Custom React hooks for viewport tracking",
-        "details": [
-          "Developed a lightweight, TypeScript-based library for using the Intersection Observer API in React.",
-          "Provided hooks for viewport entry/exit detection, real-time tracking, and custom visibility conditions.",
-          "Optimized performance to minimize re-renders."
-        ],
-        "tags": ["React", "TypeScript", "NPM"]
-      }
     }
   },
   "skills": {
@@ -134,19 +83,37 @@
         "role": "Front-End Developer",
         "company": "Code Horizon",
         "period": "November 2023 - Present",
-        "description": "Built and enhanced web applications for freelancing, ride-hailing, and medical platforms. Led real-time feature development, mentored interns, and optimized dashboards for usability and performance."
+        "description": [
+          "Developed and maintained multiple production-grade web applications and dashboards with a strong focus on scalability, performance, and maintainability.",
+          "Designed modular front-end architectures following Clean Architecture principles and reusable component-driven patterns.",
+          "Collaborated closely with designers and backend teams to ensure seamless UI/UX integration and consistent API contracts.",
+          "Implemented real-time features and optimized complex UI states using modern state management tools such as Zustand and React Query.",
+          "Improved overall application performance by up to 35% through render-time reduction and bundle optimization.",
+          "Mentored three interns, providing guidance on TypeScript, React best practices, and modern development workflows.",
+          "Actively participated in code reviews, sprint planning, and daily stand-ups to ensure alignment and effective collaboration across teams."
+        ]
       },
       {
         "role": "Front-End Developer",
         "company": "TasQment",
         "period": "December 2021 - April 2022",
-        "description": "Contributed to an Agile project management system and course platform. Collaborated with UI/UX teams, integrated APIs, and was recognized as Employee of the Month."
+        "description": [
+          "Contributed to the development of an Agile project management system by implementing UI components aligned with Kanban and Scrum workflows.",
+          "Collaborated with the design team to create responsive, accessible, and intuitive user interfaces.",
+          "Integrated front-end logic with backend APIs to enable dynamic, real-time updates and seamless user experiences.",
+          "Actively participated in daily scrum meetings and sprint reviews to ensure consistent progress and high-quality delivery.",
+          "Recognized as Employee of the Month for exceptional contributions and code quality."
+        ]
       },
       {
         "role": "Front-End Intern",
         "company": "TasQment",
         "period": "March 2021 - November 2021",
-        "description": "Gained hands-on experience with HTML, CSS, JavaScript, and contributed to early-stage web projects under professional guidance."
+        "description": [
+          "Gained hands-on experience with HTML, CSS, and JavaScript.",
+          "Contributed to early-stage web projects under professional guidance.",
+          "Learned best practices for clean, maintainable front-end code and collaborative workflows."
+        ]
       }
     ],
     "educationList": [
@@ -168,6 +135,11 @@
         "description": "Added Qatar phone number validation",
         "stars": "2.3K stars",
         "url": "https://github.com/validatorjs/validator.js"
+      },
+      {
+        "name": "React Intersection Observer Kit",
+        "description": "Custom React hooks for viewport tracking",
+        "url": "https://github.com/WardKhaddour/react-intersection-observer-kit"
       }
     ]
   },
@@ -234,5 +206,14 @@
     "sending": "Sending...",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again later."
+  },
+  "languages": {
+    "title": "Languages",
+    "description": "Languages I speak and my proficiency levels",
+    "langs": [
+      { "name": "Arabic", "level": "Native Speaker" },
+      { "name": "English", "level": "Professional Working Proficiency" },
+      { "name": "German", "level": "Beginner" }
+    ]
   }
 }

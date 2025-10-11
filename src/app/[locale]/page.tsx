@@ -7,8 +7,8 @@ import {
   Contact,
   ExperienceEducation,
   Hero,
+  Languages,
   OpenSource,
-  Projects,
   Skills,
 } from '@/views'
 
@@ -22,21 +22,21 @@ export default async function HomePage() {
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <Projects className={layoutPadding} />
-      <Skills
+      <Skills className={cn(layoutPadding)} />
+      <ExperienceEducation
         className={cn(
           layoutPadding,
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <ExperienceEducation className={layoutPadding} />
-      <OpenSource
+      <OpenSource className={cn(layoutPadding)} />
+      <CertificationsSection
         className={cn(
           layoutPadding,
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <CertificationsSection className={layoutPadding} />
+      <Languages className={cn(layoutPadding)} />
       <BlogSection
         className={cn(
           layoutPadding,

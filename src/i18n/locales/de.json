@@ -2,16 +2,16 @@
   "meta": {
     "title": "Ward Khaddour | Full Stack Webentwickler - Next.js, React, Nest.js",
     "description": "Ward Khaddour ist ein Full-Stack-JavaScript-Entwickler, spezialisiert auf React, Next.js, Nest.js und moderne Webtechnologien. Portfolio, Projekte und Kontaktinformationen.",
-    "keywords": "Ward Khaddour, Full Stack Entwickler, Next.js, React, Nest.js, TypeScript, JavaScript, Portfolio, Webentwicklung",
+    "keywords": "Ward Khaddour,Full Stack Entwickler,Next.js,React,Nest.js,TypeScript,JavaScript,Portfolio,Webentwicklung",
     "openGraph": {
       "title": "Ward Khaddour | Full Stack JavaScript Entwickler",
-      "description": "Entdecke Projekte und Fähigkeiten in React, Next.js und Nest.js.",
+      "description": "Entdecken Sie Projekte und Fähigkeiten in React, Next.js und Nest.js.",
       "siteName": "Ward Khaddour Portfolio",
       "imageAlt": "Ward Khaddour Portfolio"
     },
     "twitter": {
       "title": "Ward Khaddour | Full Stack Entwickler",
-      "description": "Entdecke meine Arbeit in der modernen Webentwicklung.",
+      "description": "Entdecken Sie meine Arbeit in moderner Webentwicklung.",
       "creator": "@WardKhaddour"
     }
   },
@@ -31,8 +31,8 @@
   },
   "hero": {
     "greeting": "Hallo, ich bin",
-    "viewWork": "Meine Arbeiten ansehen",
-    "altImage": "Entwickler Illustration",
+    "aboutMe": "Über mich",
+    "altImage": "Illustration Entwickler",
     "downloadResume": "Lebenslauf herunterladen",
     "downloading": "Wird heruntergeladen..."
   },
@@ -40,63 +40,12 @@
     "name": "Ward Khaddour",
     "header": "Über mich",
     "role": "Full Stack Entwickler",
-    "summary": "Leidenschaftlicher Full-Stack-Entwickler mit Erfahrung im Aufbau moderner Webanwendungen. Ich liebe es, skalierbare und wartbare Software zu erstellen, neue Technologien zu erkunden und komplexe Probleme zu lösen.",
+    "summary": "Ein leidenschaftlicher Full-Stack-Entwickler mit Erfahrung in der Entwicklung moderner Webanwendungen. Ich liebe es, skalierbare und wartbare Software zu erstellen, neue Technologien zu erkunden und herausfordernde Probleme zu lösen.",
     "stats": {
-      "years": "Jahre Erfahrung",
-      "tech": "Technologien",
+      "years": "Erfahrung in Jahren",
+      "tech": "Technologie-Stack",
       "languages": "Sprachen",
       "degree": "Abschluss"
-    }
-  },
-  "projects": {
-    "header": "Ausgewählte Projekte",
-    "description": "Eine Auswahl meiner neuesten Arbeiten und Entwicklungsprojekte",
-    "keyFeatures": "Hauptfunktionen",
-    "items": {
-      "flatlane": {
-        "title": "Flatlane",
-        "shortDescription": "Umfassende Ride-Hailing-Plattform mit Echtzeit-Tracking",
-        "details": [
-          "Entwicklung einer Kundenanwendung mit Echtzeit-Fahrtenverfolgung, Buchung, sicherem In-App-Chat und Fahrerbewertung.",
-          "Integration von Stripe und PayPal für sichere und reibungslose Zahlungen.",
-          "Verwendung von Design-Patterns (Adapter, Observer) für modulare und wartbare Architektur.",
-          "Entwicklung eines Admin-Dashboards zur Überwachung von Fahrten und Verwaltung von Fahrern/Kunden."
-        ],
-        "tags": ["Taxi", "PayPal", "Stripe"]
-      },
-      "syrianlancer": {
-        "title": "Syrianlancer",
-        "shortDescription": "Freelancing-Plattform für Auftraggeber und Freelancer",
-        "details": [
-          "Plattform für Auftraggeber und Freelancer mit detaillierten Dienstleistungen, Such- und Filteroptionen sowie sicheren Transaktionen.",
-          "Bewertungssystem zur Stärkung von Vertrauen und Glaubwürdigkeit.",
-          "Integration eines sicheren Zahlungssystems und Lieferservices.",
-          "Echtzeit-In-App-Chat für nahtlose Kommunikation.",
-          "Entwicklung eines Admin-Dashboards für Benutzerverwaltung, Konfliktlösung und Analysen."
-        ],
-        "tags": ["React", "Freelancing"]
-      },
-      "edulive": {
-        "title": "Edulive",
-        "shortDescription": "Plattform für Live-Kurse und Online-Klassenzimmer",
-        "details": [
-          "Entwicklung einer Plattform mit Live-Klassenzimmern (WebRTC), aufgezeichnetem Streaming (HLS/DASH) und adaptiver Wiedergabe.",
-          "Implementierung von Nest.js, GraphQL, Socket.io, PostgreSQL und React als Full-Stack-Lösung.",
-          "Echtzeit-Signalisierung für Video-Sessions und effiziente Datenabfragen.",
-          "Graduierungsprojekt mit 96% Bewertung."
-        ],
-        "tags": ["React", "Nest.js", "WebRTC", "GraphQL", "PostgreSQL"]
-      },
-      "observerKit": {
-        "title": "React Intersection Observer Kit",
-        "shortDescription": "Individuelle React Hooks für Viewport-Tracking",
-        "details": [
-          "Leichtgewichtige, TypeScript-basierte Bibliothek für Intersection Observer in React.",
-          "Hooks für Eintritt-/Austrittserkennung, Echtzeit-Tracking und benutzerdefinierte Bedingungen.",
-          "Performanceoptimierung zur Minimierung von Re-Renders."
-        ],
-        "tags": ["React", "TypeScript", "NPM"]
-      }
     }
   },
   "skills": {
@@ -119,7 +68,7 @@
       "postgresql": "PostgreSQL",
       "typeorm": "TypeORM",
       "graphql": "GraphQL",
-      "restapi": "REST API",
+      "restapi": "RestAPI",
       "socketio": "Socket.IO",
       "webrtc": "WebRTC",
       "docker": "Docker",
@@ -128,57 +77,80 @@
   },
   "experienceEducation": {
     "work": "Berufserfahrung",
-    "education": "Ausbildung",
+    "education": "Bildung",
     "experienceList": [
       {
-        "role": "Frontend Entwickler",
+        "role": "Front-End Entwickler",
         "company": "Code Horizon",
-        "period": "November 2023 - Gegenwart",
-        "description": "Entwicklung und Verbesserung von Webanwendungen für verschiedene Plattformen. Leitung von Echtzeit-Features, Mentoring von Praktikanten und Optimierung von Dashboards."
+        "period": "November 2023 - Heute",
+        "description": [
+          "Entwicklung und Wartung mehrerer produktionsreifer Webanwendungen und Dashboards mit Fokus auf Skalierbarkeit, Leistung und Wartbarkeit.",
+          "Entwurf modularer Front-End-Architekturen nach Clean Architecture-Prinzipien und wiederverwendbaren komponentenbasierten Mustern.",
+          "Enge Zusammenarbeit mit Design- und Backend-Teams, um eine nahtlose UI/UX-Integration und konsistente API-Verträge sicherzustellen.",
+          "Implementierung von Echtzeitfunktionen und Optimierung komplexer UI-Zustände mit modernen State-Management-Tools wie Zustand und React Query.",
+          "Verbesserung der Gesamtleistung der Anwendungen um bis zu 35 % durch Reduzierung der Renderzeiten und Optimierung der Bundle-Größe.",
+          "Betreuung von drei Praktikanten, einschließlich Anleitung zu TypeScript, React Best Practices und modernen Entwicklungs-Workflows.",
+          "Aktive Teilnahme an Code-Reviews, Sprint-Planungen und täglichen Stand-ups zur Sicherstellung von Abstimmung und effektiver Zusammenarbeit im Team."
+        ]
       },
       {
-        "role": "Frontend Entwickler",
+        "role": "Front-End Entwickler",
         "company": "TasQment",
         "period": "Dezember 2021 - April 2022",
-        "description": "Beitrag zu einem agilen Projektmanagementsystem und einer Kursplattform. Zusammenarbeit mit UI/UX-Teams und API-Integration."
+        "description": [
+          "Mitwirkung an der Entwicklung eines agilen Projektmanagementsystems durch Implementierung von UI-Komponenten entsprechend den Kanban- und Scrum-Workflows.",
+          "Zusammenarbeit mit dem Designteam zur Erstellung responsiver, zugänglicher und intuitiver Benutzeroberflächen.",
+          "Integration von Front-End-Logik mit Backend-APIs für dynamische Echtzeit-Updates und nahtlose Benutzererfahrung.",
+          "Aktive Teilnahme an täglichen Scrum-Meetings und Sprint-Reviews zur Sicherstellung kontinuierlicher Fortschritte und qualitativ hochwertiger Ergebnisse.",
+          "Auszeichnung als Mitarbeiter des Monats für herausragende Beiträge und hohe Codequalität."
+        ]
       },
       {
-        "role": "Frontend Praktikant",
+        "role": "Front-End Praktikant",
         "company": "TasQment",
         "period": "März 2021 - November 2021",
-        "description": "Praktische Erfahrung mit HTML, CSS und JavaScript. Mitarbeit an frühen Projekten."
+        "description": [
+          "Praktische Erfahrung mit HTML, CSS und JavaScript gesammelt.",
+          "Mitwirkung an frühen Webprojekten unter professioneller Anleitung.",
+          "Erlernen bewährter Praktiken für sauberen, wartbaren Front-End-Code und kollaborative Arbeitsabläufe."
+        ]
       }
     ],
     "educationList": [
       {
-        "degree": "B.Sc. Softwaretechnik",
+        "degree": "B.Sc. Software Engineering",
         "institution": "Tishreen Universität | Latakia, Syrien",
-        "period": "2019 - Gegenwart",
-        "description": "Umfassendes Studium mit Fokus auf Software-Engineering-Prinzipien, Design Patterns, objektorientierte Programmierung, Datenbanken und Algorithmen."
+        "period": "2019 - Heute",
+        "description": "Abschluss eines umfassenden Curriculums mit Schwerpunkt auf Software-Engineering-Prinzipien, Design Patterns, objektorientierter Programmierung, Datenbanken, Algorithmen und Datenstrukturen."
       }
     ]
   },
   "openSource": {
-    "title": "Open-Source-Beiträge",
-    "description": "Projekte, zu denen ich beigetragen habe",
+    "title": "Open Source Beiträge",
+    "description": "Projekte, zu denen ich beigetragen und die ich verbessert habe",
     "viewOnGithub": "Auf GitHub ansehen",
     "collaborations": [
       {
         "name": "Validator.js",
-        "description": "Hinzufügen der Validierung für katarische Telefonnummern",
+        "description": "Validierung von Telefonnummern in Katar hinzugefügt",
         "stars": "2.3K Sterne",
         "url": "https://github.com/validatorjs/validator.js"
+      },
+      {
+        "name": "React Intersection Observer Kit",
+        "description": "Benutzerdefinierte React-Hooks zur Verfolgung der Viewport-Sichtbarkeit",
+        "url": "https://github.com/WardKhaddour/react-intersection-observer-kit"
       }
     ]
   },
   "certifications": {
     "title": "Lizenzen & Zertifikate",
-    "description": "Fachliche Qualifikationen und spezialisierte Schulungen",
-    "verify": "Zertifikat überprüfen",
-    "credentialId": "Zertifikats-ID",
+    "description": "Berufliche Qualifikationen und spezialisierte Schulungen, die ich abgeschlossen habe",
+    "verify": "Qualifikation prüfen",
+    "credentialId": "Qualifikations-ID",
     "list": [
       {
-        "name": "Meta Front-End Entwickler Spezialisierung",
+        "name": "Meta Front-End Developer Spezialisierung",
         "from": "Coursera",
         "credentialId": "KROPJ1K1YHYC",
         "date": "August 2025",
@@ -208,7 +180,7 @@
       {
         "id": 1,
         "title": "Geschützte Routen mit React und React Router V6",
-        "excerpt": "Lerne fortgeschrittene Techniken, um React-Anwendungen schneller zu machen.",
+        "excerpt": "Erlernen Sie fortgeschrittene Techniken, um Ihre React-Anwendungen extrem schnell zu machen.",
         "date": "April 2023",
         "readTime": "7 Min. Lesezeit",
         "tags": ["React", "React Router", "Geschützte Routen"],
@@ -218,11 +190,11 @@
   },
   "contact": {
     "header": "Kontakt aufnehmen",
-    "summary": "Haben Sie ein Projekt im Kopf oder möchten Sie über Möglichkeiten sprechen?\nKontaktieren Sie mich über das Formular oder direkt."
+    "summary": "Haben Sie ein Projekt im Kopf oder möchten Sie mögliche Chancen besprechen?\nKontaktieren Sie mich über das Formular oder direkt."
   },
   "contactInfo": {
     "info": "Kontaktinformationen",
-    "follow": "Folgen Sie mir"
+    "follow": " Folgen Sie mir"
   },
   "contactForm": {
     "name": "Ihr Name",
@@ -230,8 +202,17 @@
     "subject": "Betreff",
     "message": "Nachricht",
     "send": "Nachricht senden",
-    "sending": "Wird gesendet...",
+    "sending": "Senden...",
     "success": "Nachricht erfolgreich gesendet!",
-    "error": "Fehler beim Senden. Bitte später erneut versuchen."
+    "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es später erneut."
+  },
+  "languages": {
+    "title": "Sprachen",
+    "description": "Sprachen, die ich spreche, und mein Niveau",
+    "langs": [
+      { "name": "Arabisch", "level": "Muttersprache" },
+      { "name": "Englisch", "level": "Berufliche Kenntnisse" },
+      { "name": "Deutsch", "level": "Anfänger" }
+    ]
   }
 }

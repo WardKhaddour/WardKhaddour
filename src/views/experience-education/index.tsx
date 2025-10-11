@@ -15,7 +15,7 @@ export function ExperienceEducation({ className = '' }: Props) {
     role: string
     company: string
     period: string
-    description: string
+    description: string[]
   }[]
 
   const education = t.raw('educationList') as {
@@ -53,9 +53,11 @@ export function ExperienceEducation({ className = '' }: Props) {
                     <span className='xs:inline-block hidden'>•</span>
                     <span>{exp.period}</span>
                   </div>
-                  <p className='text-text-secondary dark:text-dark-text-muted'>
-                    {exp.description}
-                  </p>
+                  <ul className='text-text-secondary dark:text-dark-text-muted list-disc space-y-1 ps-5'>
+                    {exp.description.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
