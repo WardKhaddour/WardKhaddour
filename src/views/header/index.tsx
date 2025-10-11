@@ -14,10 +14,10 @@ export function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const t = useTranslations('header')
   const navItems = [
-    { name: t('about'), href: '/#about-me' },
-    { name: t('skills'), href: '/#skills' },
-    { name: t('work'), href: '/#experience' },
-    { name: t('contact'), href: '/#contact' },
+    { name: t('about'), href: '#about-me' },
+    { name: t('skills'), href: '#skills' },
+    { name: t('work'), href: '#experience' },
+    { name: t('contact'), href: '#contact' },
   ]
 
   const toggleSidebar = () => {
