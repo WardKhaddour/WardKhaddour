@@ -26,7 +26,7 @@ export async function GET_APP_META_DATA({
       canonical: 'https://ward-khaddour.vercel.app/',
       languages: {
         ar: 'https://ward-khaddour.vercel.app/ar',
-        en: 'https://ward-khaddour.vercel.app/en',
+        en: 'https://ward-khaddour.vercel.app/',
         de: 'https://ward-khaddour.vercel.app/de',
       },
     },
