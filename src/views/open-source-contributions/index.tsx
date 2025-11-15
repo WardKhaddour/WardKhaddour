@@ -15,7 +15,7 @@ export function OpenSource({ className = '' }: Props) {
   const collaborations = t.raw('collaborations') as {
     id?: number
     name: string
-    description: string
+    description: string[]
     url: string
     stars?: string
   }[]
@@ -55,9 +55,11 @@ export function OpenSource({ className = '' }: Props) {
                   ) : null}
                 </div>
               </div>
-              <p className='text-text-secondary dark:text-dark-text-muted mb-4'>
-                {collab.description}
-              </p>
+              <ul className='text-text-secondary dark:text-dark-text-muted mb-4 list-disc space-y-1 ps-5'>
+                {collab.description.map(desc => (
+                  <li key={desc}> {desc}</li>
+                ))}
+              </ul>
               <a
                 href={collab.url}
                 target='_blank'

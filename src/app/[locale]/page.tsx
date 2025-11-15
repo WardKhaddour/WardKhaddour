@@ -10,8 +10,8 @@ import {
   Languages,
   OpenSource,
   Skills,
+  Metrics,
 } from '@/views'
-import { Metrics } from '@/views/metrics'
 
 export default async function HomePage() {
   return (
