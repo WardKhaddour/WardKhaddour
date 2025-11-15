@@ -101,7 +101,6 @@ export const Slider: React.FC<Props> = ({
         </div>
       </div>
 
-      {/* Arrows */}
       {showArrows && (
         <>
           <button
@@ -128,7 +127,6 @@ export const Slider: React.FC<Props> = ({
         </>
       )}
 
-      {/* Dots */}
       {showDots && (
         <div className='mt-8 flex justify-center gap-2'>
           {slides.map((_, index) => (

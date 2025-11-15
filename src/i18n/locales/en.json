@@ -39,8 +39,8 @@
   "about": {
     "name": "Ward Khaddour",
     "header": "About Me",
-    "role": "Full Stack Developer",
-    "summary": "A passionate full-stack developer with experience in building modern web applications. I love creating scalable and maintainable software, exploring new technologies, and solving challenging problems.",
+    "role": "Full Stack Engineer",
+    "summary": "Full-stack engineer with 2+ years of experience building production-ready systems in Next.js, Node.js, and TypeScript. I ship fast, own features end-to-end, improve code quality, and deliver MVPs at startup pace. Experienced in real-time systems (WebSockets, WebRTC), GraphQL/REST APIs, and scalable architectures used by 20K+ users. Passionate about creative, user-focused technology.",
     "stats": {
       "years": "Years of Experience",
       "tech": "Tech Stack",
@@ -72,7 +72,10 @@
       "socketio": "Socket.IO",
       "webrtc": "WebRTC",
       "docker": "Docker",
-      "git": "Git"
+      "git": "Git",
+      "jwt": "JWT",
+      "stripe": "Stripe",
+      "paypal": "PayPal"
     }
   },
   "experienceEducation": {
@@ -80,48 +83,45 @@
     "education": "Education",
     "experienceList": [
       {
-        "role": "Front-End Developer",
+        "role": "Frontend Engineer & Team Lead",
         "company": "Code Horizon",
         "period": "November 2023 - Present",
+        "location": "Latakia, Syria",
         "description": [
-          "Developed and maintained multiple production-grade web applications and dashboards with a strong focus on scalability, performance, and maintainability.",
-          "Designed modular front-end architectures following Clean Architecture principles and reusable component-driven patterns.",
-          "Collaborated closely with designers and backend teams to ensure seamless UI/UX integration and consistent API contracts.",
-          "Implemented real-time features and optimized complex UI states using modern state management tools such as Zustand and React Query.",
-          "Improved overall application performance by up to 35% through render-time reduction and bundle optimization.",
-          "Mentored three interns, providing guidance on TypeScript, React best practices, and modern development workflows.",
-          "Actively participated in code reviews, sprint planning, and daily stand-ups to ensure alignment and effective collaboration across teams."
+          "Architected and iterated scalable, mobile-responsive Next.js frontends and admin dashboards serving 20K+ users with up to 100 concurrent sessions per minute.",
+          "Improved interaction latency and reliability under real-time updates using Next.js App Router, SSR, and caching—achieving 30% faster response time, 50% accessibility improvement, and 70% SEO boost after migrating legacy React apps to Next.js.",
+          "Integrated secure in-app payments with Stripe, PayPal, and custom user wallets; implemented robust authentication with JWT, Access/Refresh tokens, Firebase Auth, and HTTP-only cookies.",
+          "Applied role-based UI access control and protected routes to enhance security and user experience.",
+          "Delivered event-driven UI features (live status updates, in-app chat) using WebSockets, reducing perceived wait times and user drop-offs.",
+          "Optimized component architecture and state management using Adapter, Factory, and Observer patterns with Zustand and Redux, improving Time-to-Interactive (TTI) and reducing re-renders.",
+          "Developed a reusable shared UI kit to standardize design components and accelerate product delivery across teams.",
+          "Led and mentored three front-end developers, improving delivery speed and code quality through task planning, pair programming, and structured PR reviews.",
+          "Collaborated with Product Manager, Design, and Backend teams in Scrum sprints, introducing workflow and structure improvements that increased team throughput.",
+          "Worked within a multidisciplinary team including backend developers, frontend developers, QA, team leader, PM, designer, UI/UX specialist, video specialist, and mobile developers to deliver scalable, high-impact applications."
         ]
       },
       {
         "role": "Front-End Developer",
         "company": "TasQment",
         "period": "December 2021 - April 2022",
+        "location": "Latakia, Syria",
         "description": [
-          "Contributed to the development of an Agile project management system by implementing UI components aligned with Kanban and Scrum workflows.",
-          "Collaborated with the design team to create responsive, accessible, and intuitive user interfaces.",
-          "Integrated front-end logic with backend APIs to enable dynamic, real-time updates and seamless user experiences.",
-          "Actively participated in daily scrum meetings and sprint reviews to ensure consistent progress and high-quality delivery.",
-          "Recognized as Employee of the Month for exceptional contributions and code quality."
-        ]
-      },
-      {
-        "role": "Front-End Intern",
-        "company": "TasQment",
-        "period": "March 2021 - November 2021",
-        "description": [
-          "Gained hands-on experience with HTML, CSS, and JavaScript.",
-          "Contributed to early-stage web projects under professional guidance.",
-          "Learned best practices for clean, maintainable front-end code and collaborative workflows."
+          "Contributed to a Scrum/Kanban project management platform by developing performant UI components and integrating them with REST APIs for real-time board updates and task workflows.",
+          "Built responsive, accessible interfaces aligned with Agile collaboration practices.",
+          "Participated in daily scrums and sprint reviews, supporting continuous improvement and consistent delivery.",
+          "Recognized as Employee of the Month for exceptional speed, code quality, and team collaboration."
         ]
       }
     ],
     "educationList": [
       {
         "degree": "B.Sc. Software Engineering",
-        "institution": "Tishreen University | Latakia, Syria",
-        "period": "2019 - Present",
-        "description": "Completed a comprehensive curriculum focused on software engineering principles, design patterns, object-oriented programming, databases, algorithms, and data structures."
+        "institution": "Latakia University | Latakia, Syria",
+        "period": "2019 - 2024",
+        "description": [
+          "Completed a comprehensive program covering Design Patterns, Databases, Algorithms, Data Structures, Computer Networks, Parallel Programming, Complexity Theory, Computer Architecture, Compilers, and UML Diagrams.",
+          "Participated in the Tishreen Collegiate Programming Contest (TCPC)."
+        ]
       }
     ]
   },
@@ -132,18 +132,30 @@
     "collaborations": [
       {
         "name": "Validator.js",
-        "description": "Added Qatar phone number validation",
+        "role": "Contributor",
+        "period": "July 2025",
+        "description": [
+          "Contributed to Validator.js, a string validation library with 15M+ weekly downloads used across thousands of global projects.",
+          "Added support for Qatari phone number validation as a new feature.",
+          "Followed project contribution guidelines, wrote clear and maintainable pull requests, and added full test coverage to ensure reliability.",
+          "Collaborated with maintainers and participated in community feedback, review cycles, and iteration."
+        ],
         "stars": "2.3K stars",
         "url": "https://github.com/validatorjs/validator.js"
       },
       {
         "name": "React Intersection Observer Kit",
-        "description": "Custom React hooks for viewport tracking",
+        "role": "Author",
+        "period": "November 2023",
+        "description": [
+          "Created a lightweight, TypeScript-based React library that wraps the Intersection Observer API in a developer-friendly way.",
+          "Implemented custom hooks for efficient viewport tracking, entry/exit detection, and minimized re-renders.",
+          "Set up automated publishing workflows using GitHub Actions CI/CD to maintain consistent package quality and release flow."
+        ],
         "url": "https://github.com/WardKhaddour/react-intersection-observer-kit"
       }
     ]
   },
-
   "certifications": {
     "title": "Licenses & Certifications",
     "description": "Professional credentials and specialized training I've completed",
@@ -214,6 +226,16 @@
       { "name": "Arabic", "level": "Native Speaker" },
       { "name": "English", "level": "Professional Working Proficiency" },
       { "name": "German", "level": "Beginner" }
+    ]
+  },
+  "metrics": {
+    "title": "Performance Metrics",
+    "description": "These metrics highlight key improvements achieved across performance, accessibility, and SEO to enhance overall user  experience.",
+    "dataKey": "improvement",
+    "performance": [
+      { "name": "Page Latency", "improvement": 30 },
+      { "name": "Accessibility", "improvement": 50 },
+      { "name": "SEO Boost", "improvement": 70 }
     ]
   }
 }

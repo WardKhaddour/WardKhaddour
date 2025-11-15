@@ -2,21 +2,21 @@
   "meta": {
     "title": "Ward Khaddour | Full Stack Webentwickler - Next.js, React, Nest.js",
     "description": "Ward Khaddour ist ein Full-Stack-JavaScript-Entwickler, spezialisiert auf React, Next.js, Nest.js und moderne Webtechnologien. Portfolio, Projekte und Kontaktinformationen.",
-    "keywords": "Ward Khaddour,Full Stack Entwickler,Next.js,React,Nest.js,TypeScript,JavaScript,Portfolio,Webentwicklung",
+    "keywords": "Ward Khaddour, Full Stack Developer, Next.js, React, Nest.js, TypeScript, JavaScript, Portfolio, Webentwicklung",
     "openGraph": {
-      "title": "Ward Khaddour | Full Stack JavaScript Entwickler",
-      "description": "Entdecken Sie Projekte und Fähigkeiten in React, Next.js und Nest.js.",
+      "title": "Ward Khaddour | Full-Stack-JavaScript-Entwickler",
+      "description": "Entdecke Projekte und Fähigkeiten in React, Next.js und Nest.js.",
       "siteName": "Ward Khaddour Portfolio",
       "imageAlt": "Ward Khaddour Portfolio"
     },
     "twitter": {
-      "title": "Ward Khaddour | Full Stack Entwickler",
-      "description": "Entdecken Sie meine Arbeit in moderner Webentwicklung.",
+      "title": "Ward Khaddour | Full Stack Developer",
+      "description": "Entdecke meine Arbeit in der modernen Webentwicklung.",
       "creator": "@WardKhaddour"
     }
   },
   "ld": {
-    "jobTitle": "Full Stack Webentwickler",
+    "jobTitle": "Full-Stack-Webentwickler",
     "worksFor": "Freelance / Remote",
     "knowsAbout": "JavaScript,TypeScript,React,Next.js,Nest.js,Node.js,PostgreSQL,Tailwind CSS",
     "alumniOf": "Tishreen Universität",
@@ -32,18 +32,18 @@
   "hero": {
     "greeting": "Hallo, ich bin",
     "aboutMe": "Über mich",
-    "altImage": "Illustration Entwickler",
+    "altImage": "Entwickler-Illustration",
     "downloadResume": "Lebenslauf herunterladen",
     "downloading": "Wird heruntergeladen..."
   },
   "about": {
     "name": "Ward Khaddour",
     "header": "Über mich",
-    "role": "Full Stack Entwickler",
-    "summary": "Ein leidenschaftlicher Full-Stack-Entwickler mit Erfahrung in der Entwicklung moderner Webanwendungen. Ich liebe es, skalierbare und wartbare Software zu erstellen, neue Technologien zu erkunden und herausfordernde Probleme zu lösen.",
+    "role": "Full-Stack-Ingenieur",
+    "summary": "Full-Stack-Ingenieur mit über 2 Jahren Erfahrung im Aufbau produktionsreifer Systeme mit Next.js, Node.js und TypeScript. Ich liefere schnell, übernehme Features ganzheitlich, verbessere Codequalität und liefere MVPs im Startup-Tempo. Erfahrung mit Echtzeitsystemen (WebSockets, WebRTC), GraphQL/REST-APIs und skalierbaren Architekturen, die von über 20.000 Nutzern verwendet werden. Leidenschaftlich für kreative, nutzerorientierte Technologie.",
     "stats": {
-      "years": "Erfahrung in Jahren",
-      "tech": "Technologie-Stack",
+      "years": "Jahre Erfahrung",
+      "tech": "Tech-Stack",
       "languages": "Sprachen",
       "degree": "Abschluss"
     }
@@ -68,86 +68,99 @@
       "postgresql": "PostgreSQL",
       "typeorm": "TypeORM",
       "graphql": "GraphQL",
-      "restapi": "RestAPI",
+      "restapi": "REST-API",
       "socketio": "Socket.IO",
       "webrtc": "WebRTC",
       "docker": "Docker",
-      "git": "Git"
+      "git": "Git",
+      "jwt": "JWT",
+      "stripe": "Stripe",
+      "paypal": "PayPal"
     }
   },
   "experienceEducation": {
     "work": "Berufserfahrung",
-    "education": "Bildung",
+    "education": "Ausbildung",
     "experienceList": [
       {
-        "role": "Front-End Entwickler",
+        "role": "Frontend Engineer & Team Lead",
         "company": "Code Horizon",
         "period": "November 2023 - Heute",
+        "location": "Latakia, Syrien",
         "description": [
-          "Entwicklung und Wartung mehrerer produktionsreifer Webanwendungen und Dashboards mit Fokus auf Skalierbarkeit, Leistung und Wartbarkeit.",
-          "Entwurf modularer Front-End-Architekturen nach Clean Architecture-Prinzipien und wiederverwendbaren komponentenbasierten Mustern.",
-          "Enge Zusammenarbeit mit Design- und Backend-Teams, um eine nahtlose UI/UX-Integration und konsistente API-Verträge sicherzustellen.",
-          "Implementierung von Echtzeitfunktionen und Optimierung komplexer UI-Zustände mit modernen State-Management-Tools wie Zustand und React Query.",
-          "Verbesserung der Gesamtleistung der Anwendungen um bis zu 35 % durch Reduzierung der Renderzeiten und Optimierung der Bundle-Größe.",
-          "Betreuung von drei Praktikanten, einschließlich Anleitung zu TypeScript, React Best Practices und modernen Entwicklungs-Workflows.",
-          "Aktive Teilnahme an Code-Reviews, Sprint-Planungen und täglichen Stand-ups zur Sicherstellung von Abstimmung und effektiver Zusammenarbeit im Team."
+          "Architektur und Entwicklung skalierbarer, mobilfreundlicher Next.js-Frontends und Admin-Dashboards für über 20.000 Nutzer mit bis zu 100 gleichzeitigen Sessions pro Minute.",
+          "Verbesserung der Interaktionslatenz und Zuverlässigkeit unter Echtzeit-Updates mithilfe von Next.js App Router, SSR und Caching — 30% schnellere Reaktionszeit, 50% bessere Barrierefreiheit und 70% SEO-Steigerung nach Migration veralteter React-Apps zu Next.js.",
+          "Integration sicherer In-App-Zahlungen mit Stripe, PayPal und benutzerdefinierten Wallets; Implementierung robuster Authentifizierung mit JWT, Access/Refresh Tokens, Firebase Auth und HTTP-only Cookies.",
+          "Anwendung rollenbasierter UI-Zugriffskontrollen und geschützter Routen zur Verbesserung von Sicherheit und Nutzererlebnis.",
+          "Bereitstellung ereignisgetriebener UI-Features (Live-Status-Updates, In-App-Chat) mit WebSockets, wodurch Wartezeiten reduziert und Abbruchraten gesenkt wurden.",
+          "Optimierung der Komponentenarchitektur und des State-Managements unter Verwendung von Adapter-, Factory- und Observer-Pattern mit Zustand und Redux, Verbesserung der TTI und Reduzierung unnötiger Re-Renders.",
+          "Entwicklung eines wiederverwendbaren UI-Kits zur Standardisierung der Designkomponenten und Beschleunigung der Produktbereitstellung.",
+          "Leitung und Mentoring von drei Frontend-Entwicklern, Verbesserung der Liefergeschwindigkeit und Codequalität durch Task-Planung, Pair-Programming und strukturierte PR-Reviews.",
+          "Zusammenarbeit mit Produktmanagern, Design und Backend-Teams in Scrum-Sprints, Einführung von Workflow-Verbesserungen zur Steigerung der Teamproduktivität.",
+          "Arbeit in einem multidisziplinären Team bestehend aus Backend-, Frontend-, QA-, Teamlead-, PM-, Design-, UI/UX-, Video- und Mobile-Entwicklern zur Bereitstellung skalierbarer Anwendungen."
         ]
       },
       {
-        "role": "Front-End Entwickler",
+        "role": "Frontend-Entwickler",
         "company": "TasQment",
         "period": "Dezember 2021 - April 2022",
+        "location": "Latakia, Syrien",
         "description": [
-          "Mitwirkung an der Entwicklung eines agilen Projektmanagementsystems durch Implementierung von UI-Komponenten entsprechend den Kanban- und Scrum-Workflows.",
-          "Zusammenarbeit mit dem Designteam zur Erstellung responsiver, zugänglicher und intuitiver Benutzeroberflächen.",
-          "Integration von Front-End-Logik mit Backend-APIs für dynamische Echtzeit-Updates und nahtlose Benutzererfahrung.",
-          "Aktive Teilnahme an täglichen Scrum-Meetings und Sprint-Reviews zur Sicherstellung kontinuierlicher Fortschritte und qualitativ hochwertiger Ergebnisse.",
-          "Auszeichnung als Mitarbeiter des Monats für herausragende Beiträge und hohe Codequalität."
-        ]
-      },
-      {
-        "role": "Front-End Praktikant",
-        "company": "TasQment",
-        "period": "März 2021 - November 2021",
-        "description": [
-          "Praktische Erfahrung mit HTML, CSS und JavaScript gesammelt.",
-          "Mitwirkung an frühen Webprojekten unter professioneller Anleitung.",
-          "Erlernen bewährter Praktiken für sauberen, wartbaren Front-End-Code und kollaborative Arbeitsabläufe."
+          "Beitrag zu einer Scrum/Kanban-Projektmanagementplattform durch Entwicklung leistungsfähiger UI-Komponenten und Integration mit REST-APIs für Echtzeit-Board-Updates und Task-Workflows.",
+          "Erstellung responsiver, barrierefreier Interfaces gemäß Agile-Praktiken.",
+          "Teilnahme an täglichen Standups und Sprint-Reviews, Unterstützung kontinuierlicher Verbesserungen.",
+          "Auszeichnung als Mitarbeiter des Monats für außergewöhnliche Geschwindigkeit, Codequalität und Teamarbeit."
         ]
       }
     ],
     "educationList": [
       {
         "degree": "B.Sc. Software Engineering",
-        "institution": "Tishreen Universität | Latakia, Syrien",
-        "period": "2019 - Heute",
-        "description": "Abschluss eines umfassenden Curriculums mit Schwerpunkt auf Software-Engineering-Prinzipien, Design Patterns, objektorientierter Programmierung, Datenbanken, Algorithmen und Datenstrukturen."
+        "institution": "Universität Latakia | Latakia, Syrien",
+        "period": "2019 - 2024",
+        "description": [
+          "Umfassendes Studium zu Design Patterns, Datenbanken, Algorithmen, Datenstrukturen, Computernetzwerken, Parallelprogrammierung, Komplexitätstheorie, Computerarchitektur, Compilern und UML-Diagrammen.",
+          "Teilnahme am Tishreen Collegiate Programming Contest (TCPC)."
+        ]
       }
     ]
   },
   "openSource": {
-    "title": "Open Source Beiträge",
+    "title": "Open-Source-Beiträge",
     "description": "Projekte, zu denen ich beigetragen und die ich verbessert habe",
     "viewOnGithub": "Auf GitHub ansehen",
     "collaborations": [
       {
         "name": "Validator.js",
-        "description": "Validierung von Telefonnummern in Katar hinzugefügt",
+        "role": "Beitragender",
+        "period": "Juli 2025",
+        "description": [
+          "Beitrag zu Validator.js, einer Validierungsbibliothek mit über 15 Mio. wöchentlichen Downloads.",
+          "Hinzufügen der Unterstützung für die Validierung katarischer Telefonnummern.",
+          "Einhaltung der Contribution-Guidelines, Schreiben klarer Pull-Requests und Implementierung vollständiger Testabdeckung.",
+          "Zusammenarbeit mit Maintainers, Teilnahme an Feedback- und Reviewzyklen."
+        ],
         "stars": "2.3K Sterne",
         "url": "https://github.com/validatorjs/validator.js"
       },
       {
         "name": "React Intersection Observer Kit",
-        "description": "Benutzerdefinierte React-Hooks zur Verfolgung der Viewport-Sichtbarkeit",
+        "role": "Autor",
+        "period": "November 2023",
+        "description": [
+          "Erstellung einer leichtgewichtigen, TypeScript-basierten React-Bibliothek für die Arbeit mit der Intersection Observer API.",
+          "Implementierung benutzerdefinierter Hooks für effizientes Viewport-Tracking und minimierte Re-Renders.",
+          "Einrichtung automatischer Veröffentlichung über GitHub Actions CI/CD."
+        ],
         "url": "https://github.com/WardKhaddour/react-intersection-observer-kit"
       }
     ]
   },
   "certifications": {
     "title": "Lizenzen & Zertifikate",
-    "description": "Berufliche Qualifikationen und spezialisierte Schulungen, die ich abgeschlossen habe",
-    "verify": "Qualifikation prüfen",
-    "credentialId": "Qualifikations-ID",
+    "description": "Berufliche Qualifikationen und spezialisierte Trainings, die ich abgeschlossen habe",
+    "verify": "Zertifikat prüfen",
+    "credentialId": "Zertifikats-ID",
     "list": [
       {
         "name": "Meta Front-End Developer Spezialisierung",
@@ -180,39 +193,49 @@
       {
         "id": 1,
         "title": "Geschützte Routen mit React und React Router V6",
-        "excerpt": "Erlernen Sie fortgeschrittene Techniken, um Ihre React-Anwendungen extrem schnell zu machen.",
+        "excerpt": "Lerne fortgeschrittene Techniken, um deine React-Anwendungen blitzschnell zu machen.",
         "date": "April 2023",
         "readTime": "7 Min. Lesezeit",
-        "tags": ["React", "React Router", "Geschützte Routen"],
+        "tags": ["React", "React Router", "Protected Routes"],
         "link": "https://medium.com/@wardkhaddot/protected-routes-with-react-and-react-router-v6-50bc50b4159c"
       }
     ]
   },
   "contact": {
     "header": "Kontakt aufnehmen",
-    "summary": "Haben Sie ein Projekt im Kopf oder möchten Sie mögliche Chancen besprechen?\nKontaktieren Sie mich über das Formular oder direkt."
+    "summary": "Hast du ein Projekt im Sinn oder möchtest du über potenzielle Möglichkeiten sprechen?\nKontaktiere mich über das Formular oder direkt."
   },
   "contactInfo": {
     "info": "Kontaktinformationen",
-    "follow": " Folgen Sie mir"
+    "follow": "Folge mir"
   },
   "contactForm": {
-    "name": "Ihr Name",
-    "email": "Ihre E-Mail",
+    "name": "Dein Name",
+    "email": "Deine E-Mail",
     "subject": "Betreff",
     "message": "Nachricht",
     "send": "Nachricht senden",
-    "sending": "Senden...",
+    "sending": "Wird gesendet...",
     "success": "Nachricht erfolgreich gesendet!",
-    "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es später erneut."
+    "error": "Fehler beim Senden der Nachricht. Bitte versuche es später erneut."
   },
   "languages": {
     "title": "Sprachen",
-    "description": "Sprachen, die ich spreche, und mein Niveau",
+    "description": "Sprachen, die ich spreche, und meine Kenntnisse",
     "langs": [
       { "name": "Arabisch", "level": "Muttersprache" },
-      { "name": "Englisch", "level": "Berufliche Kenntnisse" },
+      { "name": "Englisch", "level": "Berufliche Arbeitskompetenz" },
       { "name": "Deutsch", "level": "Anfänger" }
+    ]
+  },
+  "metrics": {
+    "title": "Leistungskennzahlen",
+    "description": "Diese Kennzahlen zeigen wichtige Verbesserungen in Performance, Barrierefreiheit und SEO, um das Nutzererlebnis zu optimieren.",
+    "dataKey": "improvement",
+    "performance": [
+      { "name": "Seitenlatenz", "improvement": 30 },
+      { "name": "Barrierefreiheit", "improvement": 50 },
+      { "name": "SEO-Steigerung", "improvement": 70 }
     ]
   }
 }
