@@ -60,10 +60,9 @@ export function AboutMe({ className = '' }: Props) {
                     'bg-surface dark:bg-dark-surface relative flex flex-col items-center overflow-hidden rounded-2xl p-8 shadow-lg transition-all duration-300 hover:shadow-xl',
                   )}
                 >
-                  {/* Gradient background effect */}
                   <div
                     className={cn(
-                      'from-primary/5 dark:from-dark-primary/5 absolute inset-0 bg-gradient-to-br to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100',
+                      'from-primary/5 dark:from-dark-primary/5 absolute inset-0 bg-linear-to-br to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100',
                     )}
                   ></div>
 

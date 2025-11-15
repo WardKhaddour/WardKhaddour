@@ -73,7 +73,6 @@ export function Header() {
         </div>
       </header>
 
-      {/* Mobile Sidebar */}
       <div
         className={`fixed inset-0 z-30 transition-all duration-300 ease-in-out lg:hidden ${
           isSidebarOpen

@@ -10,7 +10,7 @@ export const about = {
   summaryKey: 'summary',
   stats: [
     { labelKey: 'stats.years', value: 2 },
-    { labelKey: 'stats.tech', value: 8 },
+    { labelKey: 'stats.tech', value: 10 },
     { labelKey: 'stats.languages', value: 3 },
     { labelKey: 'stats.degree', value: 1 },
   ],

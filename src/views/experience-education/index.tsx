@@ -29,7 +29,6 @@ export function ExperienceEducation({ className = '' }: Props) {
     <section id='experience' className={cn('py-20', className)}>
       <div className='container mx-auto'>
         <div className='grid grid-cols-1 gap-12 lg:grid-cols-2'>
-          {/* Work Experience */}
           <div>
             <div className='mb-8 flex items-center gap-4'>
               <div className='bg-primary/10 dark:bg-dark-primary/10 rounded-full p-3'>
@@ -63,7 +62,6 @@ export function ExperienceEducation({ className = '' }: Props) {
             </div>
           </div>
 
-          {/* Education */}
           <div>
             <div className='mb-8 flex items-center gap-4'>
               <div className='bg-primary/10 dark:bg-dark-primary/10 rounded-full p-3'>

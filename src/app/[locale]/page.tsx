@@ -11,6 +11,7 @@ import {
   OpenSource,
   Skills,
 } from '@/views'
+import { Metrics } from '@/views/metrics'
 
 export default async function HomePage() {
   return (
@@ -22,28 +23,34 @@ export default async function HomePage() {
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <Skills className={cn(layoutPadding)} />
+      <Metrics className={cn(layoutPadding)} />
       <ExperienceEducation
         className={cn(
           layoutPadding,
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <OpenSource className={cn(layoutPadding)} />
-      <CertificationsSection
+      <Skills className={cn(layoutPadding)} />
+      <OpenSource
         className={cn(
           layoutPadding,
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <Languages className={cn(layoutPadding)} />
-      <BlogSection
+      <CertificationsSection className={cn(layoutPadding)} />
+      <Languages
         className={cn(
           layoutPadding,
           'bg-background-secondary dark:bg-dark-background-secondary',
         )}
       />
-      <Contact className={layoutPadding} />
+      <BlogSection className={cn(layoutPadding)} />
+      <Contact
+        className={cn(
+          layoutPadding,
+          'bg-background-secondary dark:bg-dark-background-secondary',
+        )}
+      />
     </main>
   )
 }
