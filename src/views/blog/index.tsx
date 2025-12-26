@@ -35,7 +35,7 @@ export function BlogSection({ className = '' }: Props) {
             <article
               key={post.id}
               className={cn(
-                'overflow-hidden rounded-xl shadow-lg transition-shadow hover:shadow-xl',
+                'flex flex-col justify-between overflow-hidden rounded-xl shadow-lg transition-shadow hover:shadow-xl',
                 'bg-surface dark:bg-dark-surface',
               )}
             >
@@ -57,13 +57,15 @@ export function BlogSection({ className = '' }: Props) {
                 <h3 className='text-text dark:text-dark-text mb-3 text-xl font-bold'>
                   {post.title}
                 </h3>
-                <p className='text-text-secondary dark:text-dark-text-muted mb-4'>
+                <p className='text-text-secondary dark:text-dark-text-muted'>
                   {post.excerpt}
                 </p>
+              </div>
+              <div className='px-6 pb-6'>
                 <div
                   className={cn(
                     'flex items-center justify-between text-sm',
-                    'text-text-muted dark:text-dark-text-muted',
+                    'text-text-muted dark:text-dark-text-muted mb-4',
                   )}
                 >
                   <div className='flex items-center gap-2'>
@@ -75,8 +77,6 @@ export function BlogSection({ className = '' }: Props) {
                     <span>{post.readTime}</span>
                   </div>
                 </div>
-              </div>
-              <div className='px-6 pb-6'>
                 <a
                   href={post.link}
                   target='_blank'

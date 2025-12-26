@@ -191,6 +191,21 @@
     "readArticle": "Read Article",
     "list": [
       {
+        "id": 2,
+        "title": "Building Reusable UI in React: Compound Components, Render Props, and API Design",
+        "excerpt": "Exploring Compound Components pattern with real-world Accordion example, and discussing pros and cons",
+        "date": "Dec 2025",
+        "readTime": "10 min read",
+        "tags": [
+          "React",
+          "Reusable Component",
+          "Compound Components",
+          "Component Design",
+          "React Patterns"
+        ],
+        "link": "https://medium.com/@wardkhaddot/building-reusable-ui-in-react-compound-components-render-props-and-api-design-5089b83976e1"
+      },
+      {
         "id": 1,
         "title": "Protected Routes With React And React Router V6",
         "excerpt": "Learn advanced techniques to make your React applications blazing fast.",

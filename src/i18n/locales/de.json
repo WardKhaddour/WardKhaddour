@@ -191,6 +191,21 @@
     "readArticle": "Artikel lesen",
     "list": [
       {
+        "id": 2,
+        "title": "Wiederverwendbare UI in React erstellen: Compound Components, Render Props und API-Design",
+        "excerpt": "Erkundung des Patterns der Compound Components mit einem realen Accordion-Beispiel und Diskussion der Vor- und Nachteile",
+        "date": "Dezember 2025",
+        "readTime": "10 Minuten Lesezeit",
+        "tags": [
+          "React",
+          "Reusable Component",
+          "Compound Components",
+          "Component Design",
+          "React Patterns"
+        ],
+        "link": "https://medium.com/@wardkhaddot/building-reusable-ui-in-react-compound-components-render-props-and-api-design-5089b83976e1"
+      },
+      {
         "id": 1,
         "title": "Geschützte Routen mit React und React Router V6",
         "excerpt": "Lerne fortgeschrittene Techniken, um deine React-Anwendungen blitzschnell zu machen.",

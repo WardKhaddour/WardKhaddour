@@ -191,8 +191,23 @@
     "readArticle": "قراءة المقال",
     "list": [
       {
+        "id": 2,
+        "title": "Building Reusable UI in React: Compound Components, Render Props, and API Design",
+        "excerpt": "استكشاف نمط المكونات المركبة مع مثال حقيقي على Accordion، ومناقشة المزايا والعيوب",
+        "date": "ديسمبر 2025",
+        "readTime": "10 دقائق قراءة",
+        "tags": [
+          "React",
+          "Reusable Component",
+          "Compound Components",
+          "Component Design",
+          "React Patterns"
+        ],
+        "link": "https://medium.com/@wardkhaddot/building-reusable-ui-in-react-compound-components-render-props-and-api-design-5089b83976e1"
+      },
+      {
         "id": 1,
-        "title": "المسارات المحمية في React و React Router V6",
+        "title": "Protected Routes With React And React Router V6",
         "excerpt": "تعرّف على تقنيات متقدمة لجعل تطبيقات React أسرع وأكثر أماناً.",
         "date": "أبريل 2023",
         "readTime": "7 دقائق قراءة",
