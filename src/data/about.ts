@@ -3,7 +3,7 @@ export const about = {
   phoneNumber: '+963 933141787',
   githubLink: 'https://github.com/WardKhaddour/',
   linkedinLink: 'https://www.linkedin.com/in/ward-khaddour/',
-  mediumLink: 'https://medium.com/@wardkhaddot',
+  mediumLink: 'https://medium.com/@wardkhaddour',
 
   nameKey: 'name',
   roleKey: 'role',
