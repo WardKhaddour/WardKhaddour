@@ -28,38 +28,40 @@ export function OpenSource({ className = '' }: Props) {
           <SectionDescription>{t('description')}</SectionDescription>
         </div>
 
-        <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
+        <article className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
           {collaborations.map((collab, index) => (
-            <div
+            <section
               key={collab.id ?? index}
               className={cn(
-                'rounded-xl p-6 shadow-lg transition-shadow hover:shadow-xl',
+                'flex flex-col justify-between rounded-xl p-6 shadow-lg transition-shadow hover:shadow-xl',
                 'bg-surface dark:bg-dark-surface',
               )}
             >
-              <div className='mb-4 flex items-center gap-2'>
-                <div className='rounded-full p-3'>
-                  <FaGithub className='text-icon dark:text-dark-icon text-2xl' />
+              <div>
+                <div className='mb-4 flex items-center gap-2'>
+                  <div className='rounded-full p-3'>
+                    <FaGithub className='text-icon dark:text-dark-icon text-2xl' />
+                  </div>
+                  <div>
+                    <h3 className='text-text dark:text-dark-text text-lg font-bold'>
+                      {collab.name}
+                    </h3>
+                    {collab.stars ? (
+                      <div className='flex items-center gap-1 text-yellow-500'>
+                        <FaStar />
+                        <span className='text-text-secondary dark:text-dark-text-muted text-sm'>
+                          {collab.stars}
+                        </span>
+                      </div>
+                    ) : null}
+                  </div>
                 </div>
-                <div>
-                  <h3 className='text-text dark:text-dark-text text-lg font-bold'>
-                    {collab.name}
-                  </h3>
-                  {collab.stars ? (
-                    <div className='flex items-center gap-1 text-yellow-500'>
-                      <FaStar />
-                      <span className='text-text-secondary dark:text-dark-text-muted text-sm'>
-                        {collab.stars}
-                      </span>
-                    </div>
-                  ) : null}
-                </div>
+                <ul className='text-text-secondary dark:text-dark-text-muted mb-4 list-disc space-y-1 ps-5'>
+                  {collab.description.map(desc => (
+                    <li key={desc}> {desc}</li>
+                  ))}
+                </ul>
               </div>
-              <ul className='text-text-secondary dark:text-dark-text-muted mb-4 list-disc space-y-1 ps-5'>
-                {collab.description.map(desc => (
-                  <li key={desc}> {desc}</li>
-                ))}
-              </ul>
               <a
                 href={collab.url}
                 target='_blank'
@@ -79,9 +81,9 @@ export function OpenSource({ className = '' }: Props) {
                   />
                 </svg>
               </a>
-            </div>
+            </section>
           ))}
-        </div>
+        </article>
       </div>
     </section>
   )
