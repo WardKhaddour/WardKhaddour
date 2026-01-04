@@ -85,7 +85,7 @@
       {
         "role": "مهندس واجهات أمامية وقائد فريق",
         "company": "Code Horizon",
-        "period": "نوفمبر 2023 - الآن",
+        "period": "نوفمبر 2023 - يناير 2026",
         "location": "اللاذقية، سوريا",
         "description": [
           "تصميم وتطوير واجهات Next.js قابلة للتوسع ولوحات تحكم تلبي احتياجات أكثر من 20 ألف مستخدم مع 100 جلسة متزامنة في الدقيقة.",
@@ -190,6 +190,21 @@
     "description": "مقالات تعليمية وأفكار حول تطوير الويب الحديث",
     "readArticle": "قراءة المقال",
     "list": [
+      {
+        "id": 3,
+        "title": "مكونات React عالية المستوى (HOCs) في عالم يعتمد على Hooks أولاً",
+        "excerpt": "مكونات React عالية المستوى (HOCs) في عالم يعتمد على Hooks أولاً – استكشاف حالات الاستخدام للمكونات عالية المستوى في React مع مثال عملي من الواقع، ومناقشة المزايا والعيوب.",
+        "date": "يناير 2026",
+        "readTime": "7 دقائق قراءة",
+        "tags": [
+          "React",
+          "Higher Order Components",
+          "Typescript With React",
+          "Typescript",
+          "Reusable Component"
+        ],
+        "link": "https://medium.com/@wardkhaddour/react-higher-order-components-hocs-in-a-hooks-first-world-18eddb2c36cd"
+      },
       {
         "id": 2,
         "title": "Building Reusable UI in React: Compound Components, Render Props, and API Design",

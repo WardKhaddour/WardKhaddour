@@ -85,7 +85,7 @@
       {
         "role": "Frontend Engineer & Team Lead",
         "company": "Code Horizon",
-        "period": "November 2023 - Present",
+        "period": "November 2023 - January 2026",
         "location": "Latakia, Syria",
         "description": [
           "Architected and iterated scalable, mobile-responsive Next.js frontends and admin dashboards serving 20K+ users with up to 100 concurrent sessions per minute.",
@@ -190,6 +190,21 @@
     "description": "Thoughts, tutorials and insights about modern web development",
     "readArticle": "Read Article",
     "list": [
+      {
+        "id": 3,
+        "title": "React Higher-Order Components (HOCs) in a Hooks-First World",
+        "excerpt": "React Higher-Order Components (HOCs) in a Hooks-First World - Exploring use cases for Higher-Order Components in React with real world example, discussing pros and cons. ",
+        "date": "Jan 2026",
+        "readTime": "7 min read",
+        "tags": [
+          "React",
+          "Higher Order Components",
+          "Typescript With React",
+          "Typescript",
+          "Reusable Component"
+        ],
+        "link": "https://medium.com/@wardkhaddour/react-higher-order-components-hocs-in-a-hooks-first-world-18eddb2c36cd"
+      },
       {
         "id": 2,
         "title": "Building Reusable UI in React: Compound Components, Render Props, and API Design",
